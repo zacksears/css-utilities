@@ -1,0 +1,25 @@
+// Transitions
+
+.transition-all
+  transition: $transition-duration $transition-easing
+  -webkit-transition: $transition-duration $transition-easing
+  -moz-transition: $transition-duration $transition-easing
+  -o-transition: $transition-duration $transition-easing
+
+.transition-opacity
+  transition: opacity $transition-duration $transition-easing
+  -webkit-transition: opacity $transition-duration $transition-easing
+  -moz-transition: opacity $transition-duration $transition-easing
+  -o-transition: opacity $transition-duration $transition-easing
+
+
+// Filters
+
+.greyscale
+  -webkit-filter: grayscale(100%)
+  -moz-filter: grayscale(100%)
+  -ms-filter: grayscale(100%)
+  -o-filter: grayscale(100%)
+  filter: grayscale(100%)
+  filter: url(grayscale.svg#greyscale)
+  filter: gray
