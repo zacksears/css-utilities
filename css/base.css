@@ -226,6 +226,17 @@
   width: 90%;
   margin: 0 auto; }
 
+.no-bullets {
+  list-style: none;
+  margin-left: 0; }
+
+.inline-list {
+  list-style: none;
+  margin-left: 0; }
+
+.inline-list li {
+  display: inline; }
+
 .transition-all {
   transition: 0.2s ease-in-out;
   -webkit-transition: 0.2s ease-in-out;
