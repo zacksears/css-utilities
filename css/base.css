@@ -1,3 +1,10 @@
+.no-margin {
+  margin: 0; }
+
+.no-padding {
+  padding: 0; }
+
+/* Margins */
 .m1 {
   margin: 1em; }
 
@@ -103,6 +110,7 @@
 .ml10 {
   marign-left: 10em; }
 
+/* Padding */
 .p1 {
   padding: 1em; }
 
@@ -237,6 +245,7 @@
 .inline-list li {
   display: inline; }
 
+/* Transitions */
 .transition-all {
   transition: 0.2s ease-in-out;
   -webkit-transition: 0.2s ease-in-out;
@@ -249,6 +258,7 @@
   -moz-transition: opacity 0.2s ease-in-out;
   -o-transition: opacity 0.2s ease-in-out; }
 
+/* Filters */
 .greyscale {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
