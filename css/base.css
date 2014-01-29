@@ -275,6 +275,18 @@
 .line-thru {
   text-decoration: line-through; }
 
+.bg-black {
+  background-color: black; }
+
+.bg-white {
+  background-color: white; }
+
+.white {
+  color: white; }
+
+.black {
+  color: black; }
+
 /* Transitions */
 .transition-all {
   transition: 0.2s ease-in-out;
@@ -318,6 +330,12 @@
 
 .center {
   text-align: center; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
 
 /* Positioning */
 .relative {
