@@ -587,3 +587,8 @@ textarea {
     max-width: 36.75em;
     margin-right: auto;
     margin-left: auto; } }
+.clip {
+  overflow: hidden; }
+
+.hide-text {
+  text-indent: -9999px; }
