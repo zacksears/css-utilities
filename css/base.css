@@ -393,8 +393,16 @@ textarea {
   -webkit-background-size: cover;
   -moz-background-size: cover; }
 
+.bg-contain {
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain; }
+
 .bg-center {
   background-position: center center; }
+
+.bg-no-repeat {
+  background-repeat: no-repeat; }
 
 .border-top {
   border-top: 1px solid #333333; }
@@ -444,15 +452,24 @@ textarea {
 .inline-block {
   display: inline-block; }
 
-.table {
+.mobile-table {
   display: table;
   table-layout: fixed;
   width: 100%; }
 
-.table-cell {
+.mobile-table-cell {
   display: table-cell;
   vertical-align: middle; }
 
+@media screen and (min-width: 36em) {
+  .table {
+    display: table;
+    table-layout: fixed;
+    width: 100%; }
+
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle; } }
 .block {
   display: block; }
 
@@ -462,6 +479,9 @@ textarea {
   -moz-box-sizing: border-box; }
 
 /* z-index */
+.z-index-1 {
+  z-index: 1; }
+
 .z-index-top {
   z-index: 300; }
 

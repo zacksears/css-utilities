@@ -55,14 +55,24 @@
 .inline-block
   display: inline-block
 
-.table
+.mobile-table
   display: table
   table-layout: fixed
   width: 100%
 
-.table-cell
+.mobile-table-cell
   display: table-cell
   vertical-align: middle
+
+@media screen and (min-width: $breakpoint)
+  .table
+    display: table
+    table-layout: fixed
+    width: 100%
+
+  .table-cell
+    display: table-cell
+    vertical-align: middle
 
 .block
   display: block
@@ -80,8 +90,9 @@
 
 /* z-index */
 
+.z-index-1
+  z-index: 1
 .z-index-top
   z-index: 300
-
 .z-index-max
   z-index: 1001
