@@ -643,7 +643,10 @@ textarea {
     display: none; }
 
   .mobile-center {
-    text-align: center; } }
+    text-align: center; }
+
+  .mobile-clear {
+    float: none; } }
 .clip {
   overflow: hidden; }
 
