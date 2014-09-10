@@ -631,7 +631,14 @@ textarea {
     max-width: 36.75em;
     margin-right: auto;
     margin-left: auto; } }
+.mobile-show {
+  display: none; }
+
 @media screen and (max-width: 36em) {
+  .mobile-show,
+  .mobile-block {
+    display: block; }
+
   .mobile-hide {
     display: none; }
 
